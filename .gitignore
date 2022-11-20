@@ -1,0 +1,9 @@
+node_modules
+dist
+
+// env
+.env
+.env.production
+
+// local db
+src-tauri/sqlite.db

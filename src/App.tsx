@@ -35,7 +35,7 @@ const App: Component = () => {
 
   return (
     <>
-    <h2>Surfaced - Surfacing your tasks</h2>
+    <h2>kyq - keek your productivity</h2>
       <ul>
         <For each={todos()}>{(todo: Todo) => <TodoListItem todo={todo} updateTodo={updateTodo} deleteTodo={deleteTodo} />}</For>
       </ul>
